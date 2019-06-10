@@ -1,0 +1,106 @@
+:root{
+    /*Colores para los botones*/
+    --rojo_btn: #FF0D00;
+    --azul_btn: #0140FF;
+    --verde_btn: #38FF01;
+    --amarillo_btn: #FFEE00;
+    --morado_btn: #C000FF;
+
+    /*Sombra para los botones*/
+    --sombra_btn: #999;
+}
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#area_de_dibujo{
+    border: 2px black solid;
+}
+
+input.boton {
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    outline: none;
+    transition-duration: 0.6s;
+    box-shadow: 0 5px #999;
+}
+
+input.boton_rojo{
+    background: var(--rojo_btn);
+}
+
+input.boton_rojo:hover{
+    background: #CC0A00;
+}
+
+input.boton_rojo:active {
+    background: var(--rojo_btn);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+input.boton_azul{
+    background: var(--azul_btn);
+}
+
+input.boton_azul:hover{
+    background: #002080;
+}
+
+input.boton_azul:active {
+    background: var(--azul_btn);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+input.boton_verde{
+    background:var(--verde_btn);
+}
+
+input.boton_verde:hover{
+    background: #30CC00;
+}
+
+input.boton_verde:active {
+    background:var(--verde_btn);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+input.boton_amarillo{
+    background:var(--amarillo_btn);
+}
+
+input.boton_amarillo:hover{
+    background: #CCBD00;
+}
+
+input.boton_amarillo:active {
+    background:var(--amarillo_btn);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+input.boton_morado{
+    background:var(--morado_btn);
+}
+
+input.boton_morado:hover{
+    background: #E80CDF;
+}
+
+input.boton_morado:active {
+    background:var(--morado_btn);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+

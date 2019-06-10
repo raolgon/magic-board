@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dibujando con flechas</title>
+</head>
+<body>
+    <h2>Dibujo con lineas</h2>
+    <p>Escoje el color que quieras:</p> <br />
+    <input type="button" class="boton boton_rojo" id="botonRojo">
+    <input type="button" class="boton boton_azul" id="botonAzul">
+    <input type="button" class="boton boton_verde" id="botonVerde">
+    <input type="button" class="boton boton_amarillo" id="botonAmarillo">
+    <input type="button" class="boton boton_morado" id="botonMorado">
+    <p>Oprime las flechas W, A, S, D o usa el raton para emperzar a dibujar</p>
+    <p>Escoje el grosor de la linea: <input type="number" max="15" min="1" id="inputGrosor" class="grosor_linea"></p>
+
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+
+    <script src="eventos.js"></script>
+</body>
+</html>
